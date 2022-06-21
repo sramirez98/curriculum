@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="estilos/app.js"></script>
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <div class="contenedor">
+        <section id="header" class="header">
+            <img class="profile" src="estilos/person2.jpg" alt="person">
+    
+            <div class="header__textos">
+                <div class="header__titles">
+                    <h1 class="header__title">Jessica Priston</h1>
+                    <h4 class="cursiva header__profession">Photographer</h4>
+                </div>
+                <p class="text header__copy">
+                    I´m a professional photographer delivering artistcally styled stunning images!
+                </p>
+            </div>
+    
+            <div class="header__logo">
+                <img class="logo" src="estilos/logo2.jpg" alt="logo">
+            </div>
+
+            <i class="hamburger fa-solid fa-bars"></i>
+        </section>
+    
+        <!-- <section class="navegador container"> -->
+        <nav class="nav__container">
+            <a class="nav__item select" href="#header">Home</a>
+            <a class="nav__item" href="#about">About</a>
+            <a class="nav__item" href="#skills">My Skills</a>
+            <a class="nav__item" href="#">Experience & Education</a>
+            <a class="nav__item" href="#">Portfolio</a>
+            <a class="nav__item" href="#">Contact</a>
+            <a class="nav__item" href="#">Goal</a>
+        </nav>
+        <!-- </section> -->
+    
+        <section id="about" class="about">
+            <div class="about__container container">
+                <h2 class="about__title">about me</h2>
+                <div class="about__logo">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <hr class="linea">
+                <div class="about__info">
+                    <div class="about__item">
+                        <div class="about__dato">
+                            <span class="bold">FULL NAME</span>
+                            <span class="grey">Jessica Priston</span>
+                        </div>
+                        <div class="about__dato">
+                            <span class="bold">BIRTHDAY</span>
+                            <span class="grey">23/06/1998</span>
+                        </div>
+                        <div class="about__dato">
+                            <span class="bold">BIRTH PLACE</span>
+                            <span class="grey">Tampico</span>
+                        </div>
+                        <div class="about__dato">
+                            <span class="bold">HOBBIES</span>
+                            <span class="grey">Coding</span>
+                        </div>
+                    </div>
+                    <div class="about__img">
+                        <img src="estilos/person.jpg" alt="person" class="about__profile">
+                    </div>
+                    <div class="about__item">
+                        <div class="about__dato">
+                            <span class="bold">ADDRESS</span>
+                            <span class="grey">Los Angeles</span>
+                        </div>
+                        <div class="about__dato">
+                            <span class="bold">PHONE</span>
+                            <span class="grey">(+52) 883-100-3824</span>
+                        </div>
+                        <div class="about__dato">
+                            <span class="bold">EMAIL</span>
+                            <span class="grey">sramirez@gmail.com</span>
+                        </div>
+                        <div class="about__dato">
+                            <span class="bold">WEB</span>
+                            <span class="grey">jessicapristo.com.mx</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <p class="about__p">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt sunt perferendis, ducimus ipsa iste deserunt exercitationem consequuntur rerum accusamus aliquid nemo adipisci ipsam asperiores minus, sapiente praesentium quos, odio repudiandae in? Illum sunt quis vitae dicta dolor praesentium temporibus reiciendis.
+                </p>
+                <p class="about__p about__p--separated">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum veniam ad repellat temporibus odit corporis ipsam maiores tenetur praesentium quisquam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt sunt perferendis, ducimus ipsa iste deserunt exercitationem consequuntur rerum accusamus aliquid nemo adipisci ipsam asperiores minus, sapiente praesentium quos, odio repudiandae in? Illum sunt quis vitae dicta dolor praesentium temporibus reiciendis.
+                </p>
+    
+                <button class="download">Download Resume</button>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="about__title">my skills</h2>
+            <div class="skills__logo">
+                <i class="fa-brands fa-creative-commons-nd"></i>
+            </div>
+            <hr class="linea">
+            <div class="skills__progress">
+                <div class="progress">
+                    <div class="progress-bar progress-bar--rosa" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95% - JavaScript</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar--rosa" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85% HTML</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar--rosa" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70% - CSS</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar--rosa" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100% - Python</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar--rosa" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60% - Bootstrap</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar--rosa" role="progressbar" style="width: 74%;" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100">74% - jQuery</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 class="about__title">Work experience</h2>
+            <div class="experience__logo">
+                <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            <hr class="linea">
+
+            <div class="experience__container">
+                <div class="experience__item">
+                    <div class="experience__info experience__info--left">
+                        <h4 class="experience__company">Apple</h4>
+                        <span class="experience__position">CEO</span>
+                        <p class="experience__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas quibusdam, expedita tempora impedit voluptate! Ratione id eius consequuntur dolores.</p>
+                    </div>
+                    <div class="linea__experience">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h4 class="experience__date experience__date--left">Marzo 2020 - Presente </h3>
+                </div>
+
+                <div class="experience__item experience__item--left">
+                    <div class="experience__info experience__info--right">
+                        <h4 class="experience__company">Samsung</h4>
+                        <span class="experience__position">CEO</span>
+                        <p class="experience__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas quibusdam, expedita tempora impedit voluptate! Ratione id eius consequuntur dolores.</p>
+                    </div>
+                    <div class="linea__experience">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="date__container">
+                        <h4 class="experience__date experience__date--right">Junio 2019 - Septiembre 2019 </h3>
+                    </div>
+                </div>
+
+                <div class="experience__item">
+                    <div class="experience__info experience__info--left">
+                        <h4 class="experience__company">Ford</h4>
+                        <span class="experience__position">CEO</span>
+                        <p class="experience__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas quibusdam, expedita tempora impedit voluptate! Ratione id eius consequuntur dolores.</p>
+                    </div>
+                    <div class="linea__experience">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <h4 class="experience__date experience__date--left">Agosto 2016-Sep 2018 </h3>
+                </div>
+
+                <div class="experience__item experience__item--left">
+                    <div class="experience__info experience__info--right">
+                        <h4 class="experience__company">Chevrolet</h4>
+                        <span class="experience__position">CEO</span>
+                        <p class="experience__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas quibusdam, expedita tempora impedit voluptate! Ratione id eius consequuntur dolores.</p>
+                    </div>
+                    <div class="linea__experience">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="date__container">
+                        <h4 class="experience__date experience__date--right">Junio 2019 - Septiembre 2019 </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+    
+</body>
+</html> 
